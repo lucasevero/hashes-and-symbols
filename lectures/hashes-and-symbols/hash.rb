@@ -8,7 +8,7 @@ paris = {
 
 # Read
 # array[3] => 4
-# puts paris['country']
+puts paris['country']
 
 # Create
 # array << 6
@@ -27,6 +27,8 @@ puts paris
 paris.delete("mayor")
 puts paris
 
+# Each
+
 # array.each do |number|
 #   puts number
 # end
@@ -34,4 +36,6 @@ puts paris
 paris.each do |key, value|
   puts "#{key} is #{value}"
 end
-# p paris["language"]
+
+# If you read a key that doesn't exist in the hash, it will return nil
+# paris["language"] => nil

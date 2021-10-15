@@ -1,11 +1,11 @@
-puts "string".class
-puts [1, 2 , 3].class
-puts (1..5).class
-puts true.class
-puts false.class
-puts 12.class
-puts 3.14.class
-puts nil.class
+puts "string".class # => String
+puts [1, 2 , 3].class # => Array
+puts (1..5).class # => Range
+puts true.class # => TrueClass
+puts false.class # => FalseClass
+puts 12.class # => Integer
+puts 3.14.class # => Float
+puts nil.class # => NilClass
 
 students = [ "Peter", "Mary", "George", "Emma" ]
 # INDEXES   0         1         2         3

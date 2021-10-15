@@ -12,9 +12,6 @@ def html_generator(tag, content, attr = {})
 
   attr_string = partials.join(" ")
 
-  # key = "id"
-  # value = "menu" # exemple
-
   "<#{tag} #{attr_string}>#{content}</#{tag}>"
 end
 
