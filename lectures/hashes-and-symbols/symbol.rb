@@ -10,5 +10,3 @@ paris = {
   country: "France",
   population: 2211000
 }
-
-# Trying to commit again
